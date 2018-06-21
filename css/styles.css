@@ -471,7 +471,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .row {
-  padding-top: 40px;
+  padding-top: 80px;
 }
 
 .sticky {
@@ -480,8 +480,87 @@ font-family: 'Open Sans', sans-serif;
   width: 100%;
 }
 
+.buttondark {
+
+}
+
+/* BUTTON FOR ROWS */
+.buttonlightrow{
+  /* font */
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 16px;
+  background-color: #414141;
+  padding-bottom: 50px;
+  
+  /* remove blue underline */
+  text-decoration: none;
+  
+  /* border */
+  border: 2px solid #fffff;
+  
+  /* transitions */
+  transition-duration: .2s;
+  -webkit-transition-duration: .2s;
+  -moz-transition-duration: .2s;
+  
+  /* other */
+  padding: 10px 40px;
+}
+
+
+.buttonlightrow:hover {
+  /* update text color and background color */
+  color:black;
+  background-color: #ffffff;
+  border-color: #ffffff;
+ 
+  
+   /* transitions */
+  transition-duration: .2s;
+  -webkit-transition-duration: .11s;
+  -moz-transition-duration: .2s;
+}
+
+.variation-b .buttondark {
+  /* font */
+  color: black;
+  
+  /* border */
+  border: 2px solid black;
+  
+
+}
+
+.variation-b .buttondark:hover {
+  /* font */
+  color: white;
+  
+  /* border */
+  border: 2px solid white;
+  
+  /* other */
+  background-color: black;
+}
+
+button.buttondark {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
 .map {
   width: 100%;
+}
+
+.contact-page {
+  background-color: #191919;
+  color: #ccc;
+  width: 100%;
+  padding: 60px;
+}
+
+.center {
+  text-align: center;
 }
 
 .sticky {
