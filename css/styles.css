@@ -4,7 +4,7 @@ body {
   background: #fff;
   font-family: sans-serif;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 
@@ -15,7 +15,6 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: 20;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -275,8 +274,8 @@ input[type=submit]:hover {
   display: inline-block;
 }
 .home-hr hr {
-  text-align: left;
   float: left;
+  color: red;
 }
 
 .main-bar, .side-bar {
@@ -374,9 +373,9 @@ input[type=submit]:hover {
 }
 
 hr {
-  width: 100px;
-  color: #191919;
-  border-color: #191; 
+  width: 150px;
+  color: red;
+  height: 100px;
 } 
 
 .left {
@@ -667,8 +666,6 @@ button.buttondark {
 }
 
 html {
-    margin-top: 25px;
-    font-size: 21px;
     text-align: center;
     animation-delay: 2s;
 
